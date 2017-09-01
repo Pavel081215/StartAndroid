@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.startandroid.p0271_getintentaction">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityDateEx" android:label="ActivityDateEx 0271">
+            <intent-filter>
+                <action android:name="com.startandroid.p0261_intentfilter.Show_date" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityDate" android:label="ActivityDate 0271">
+            <intent-filter>
+                <action android:name="com.startandroid.p0261_intentfilter.Show_date" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ActivityTime" android:label="ActivityTime 0271">
+            <intent-filter>
+                <action android:name="com.startandroid.p0261_intentfilter.Show_time" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".Info" android:label="Info 0271">
+            <intent-filter>
+                <action android:name="com.startandroid.p0261_intentfilter.Show_date" />
+                <action android:name="com.startandroid.p0261_intentfilter.Show_time"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

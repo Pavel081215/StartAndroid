@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">"Sherlock  "</string>
+    <string name="who">who</string>
+    <string name="text1">Выберите правильный ответ</string>
+    <string name="text2">Ворона</string>
+    <string name="text3">Сраный пёсик</string>
+    <string name="text4">Кот Васька</string>
+    <string name="title_activity_second">TITLE</string>
+</resources>
