@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">p0342_simplesqlite</string>
+    <string name="butReadIn">ReadId</string>
+    <string name="come_back">Come back</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+</resources>
